@@ -1,13 +1,11 @@
 // pages/about/about.js
+//getApp()获取App()产生的示例对象
+const app=getApp()
+
 Page({
-
-  /**
-   * 页面的初始数据
-   */
-  data: {
-
+  handleGetUserInfo(event) {
+    console.log(event.detail.rawData)
   },
-
   /**
    * 生命周期函数--监听页面加载
    */
