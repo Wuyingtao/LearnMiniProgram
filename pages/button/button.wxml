@@ -1,0 +1,12 @@
+<button class='pressure' size="mini">按钮</button>
+<view class="box1"
+      hover-class="hover-view"
+      hover-start-time="{{0}}">
+      box1
+  <image      
+src="https://wx.qlogo.cn/mmopen/vi_32/n0F0lia1zWRGxszxibCYDBpzSsye4Fvn3GOjvQsqOGzI8ibCHq4uibpEWbdHDUn8xN77ZqNYQmN4iaAY5MoWJsNG1Uw/132"
+  bindload="handleImageLoad"
+  lazy-load />      
+</view>
+
+<input bindblur="getValue"></input>

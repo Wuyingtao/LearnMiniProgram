@@ -1,0 +1,19 @@
+.pressure{
+  background: white
+  
+}
+
+.box1{
+  background: pink;
+  width: 122px;
+}
+
+.hover-view{
+  font-size:12px;
+  
+}
+
+input{
+  border: 1px solid red;
+  width: 300px;
+}
